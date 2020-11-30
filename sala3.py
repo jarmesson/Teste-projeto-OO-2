@@ -1,7 +1,11 @@
 class Sala3:
-  def __init__(self, sala: str = 'Sala 3'):
-    self.sala = sala3
+  def __init__(self, situacao: str = None):
+    self.__situacao = situacao
 
   @property
-	def mostra_nome_sala3(self):
-		return self.__nomeSala3
+  def mostra_situacao_sala3(self):
+    return self.__situacao
+
+  @mostra_situacao_sala3.setter
+  def definir_situacao_sala3(self, situacao: str = None):
+    self.__situacao = situacao

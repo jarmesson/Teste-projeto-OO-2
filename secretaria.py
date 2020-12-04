@@ -1,7 +1,7 @@
 from funcionario import Funcionario
 
-class Socio(Funcionario):
-  def __init__(self, nome: str = None, ramal: str = None, cargo: str = "Socio"):
+class Secretaria(Funcionario):
+  def __init__(self, nome: str = None, ramal: str = None, cargo: str = "Secretaria"):
     super().__init__(nome, ramal)
     self.__cargo = cargo
 

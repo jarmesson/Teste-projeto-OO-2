@@ -1,0 +1,16 @@
+[[package]]
+category = "main"
+description = "Encrypted plaintext password store"
+name = "sala"
+optional = false
+python-versions = "*"
+version = "1.3"
+
+[metadata]
+content-hash = "538be6772ab8874cfb5226274dd07094856ad929b0186103c259684f37c619a0"
+python-versions = "^3.8"
+
+[metadata.files]
+sala = [
+    {file = "sala-1.3.tar.gz", hash = "sha256:28feae15094aa8ff029bd1bd2bc67acac16be948d4652cd1c50c281107ab0f8f"},
+]

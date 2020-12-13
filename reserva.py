@@ -60,7 +60,7 @@ class Reserva:
 
   def exibir_reservas(self):
     for i in range(len(self.__reserva)):
-      print(self.__reserva[i]["nome"])
+      print("Solicitante:", self.__reserva[i]["solicitante"]," | ","Sala:",self.__reserva[i]["nome"]," | ","Hora Marcada:",self.__reserva[i]["hora"]," | ","Dia marcado:",self.__reserva[i]["dia"]," | ","Mês:",self.__reserva[i]["mes"])
 
     if len(self.__reserva) == 0:
       print("Não existem reservas no sistema")

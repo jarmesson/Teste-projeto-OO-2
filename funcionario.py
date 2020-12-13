@@ -20,5 +20,8 @@ class Funcionario:
   @mostra_ramal.setter
   def definir_ramal(self, ramal: str = None):
     self.__ramal = ramal
+  
+  def __str__(self):
+    return (self.nome)
 
 

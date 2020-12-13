@@ -18,3 +18,6 @@ class Sala:
   @mostra_situacao_sala.setter
   def definir_situacao_sala(self, situacao: str = None):
     self.__situacao = situacao
+
+  def __str__(self):
+    return (self.nome)

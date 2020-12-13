@@ -1,12 +1,15 @@
-from funcionario import Funcionario
+class Socio:
+  def __init__(self, nome: str = None):
+    self.__nome = nome
 
-class Socio(Funcionario):
-  def __init__(self, nome: str = None, ramal: str = None, cargo: str = "Socio"):
-    super().__init__(nome, ramal)
-    self.__cargo = cargo
+  @property
+  def mostra_nome_socio(self):
+    return self.__nome
+  
+  @mostra_nome_socio.setter
+  def definir_nome_socio(self, nome: str = None):
+    self.__nome = nome
+  
+  def __str__(self):
+    return str(self.nome)
 
-  def get_cargo(self):
-    return self.__cargo		
-
-  def set_cargo(self, cargo: str = None):
-    self.__cargo = cargo

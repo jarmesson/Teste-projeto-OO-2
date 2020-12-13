@@ -16,7 +16,7 @@ class Dia:
 
   @property
   def mostra_mes(self):
-    return self.mes
+    return self.__mes
 
   #Setters
   @mostra_hora.setter
